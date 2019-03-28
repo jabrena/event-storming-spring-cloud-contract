@@ -8,13 +8,20 @@ When you have a project with multiple dependencies like the scenario provided in
 
 ![](Deps.png)
 
-It not possible to wait for all dependencies in an evnrionment to execute your Integration tests. It is necessary to provide a solution with the goal to put that tests in daily Developer activities.
+It not possible to wait for all dependencies in an environment to execute your Integration tests. It is necessary to provide a solution with the goal to put that tests in daily Developer activities.
 
 ![](Stubs2.png)
 
-## Library + Methodology
+## The solution: Dependencies and a Methodology
 
-The usage of this project combine a set of Dependencies in your project and a set of organizational operations between the Consumer and the Producers.
+The usage of this project combine a set of Dependencies in your project and a set of organizational operations between the Consumer and the Producers. In terms of technology, the solution provides a library for the Consumer in order to use the Contracts from any Producer. For the producer, the project provides a library to verify that the contracts match with the reality of your implementation. 
+
+The execution of this project could be organized in 4 phases:
+
+- Specification
+- The contract definition
+- Testing
+- Contract Gobernance
 
 ### Specificacion
 
