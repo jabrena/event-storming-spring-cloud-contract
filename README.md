@@ -6,6 +6,7 @@ You always need confidence when pushing new features into a new application or s
 
 - [The problem](the-problem.md)
 - [The solution](the-solution.md)
+- [Specification](specification.md)
 
 ## References
 
