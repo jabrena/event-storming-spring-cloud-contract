@@ -4,7 +4,7 @@ You always need confidence when pushing new features into a new application or s
 
 ## Contents
 
-- [The problem](the-problem-to-solve.md)
+- [The problem](the-problem.md)
 - [The solution](the-solution.md)
 
 ## References
