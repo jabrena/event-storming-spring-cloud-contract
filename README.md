@@ -25,16 +25,25 @@ The execution of this project could be organized in 4 phases:
 
 ### Specificacion
 
-In the phase, the Consumer, use contracts from the different producers to improve the Integratoin tests
+In the phase, the Consumer, use contracts from the different producers to improve the Integration tests
 
 ![](1.jpg)
 
-#### Context:
+#### Consumer
 
-Spring Cloud Contracts help any Spring Development with the usage of Contract Driven Development. This solution could be used in 2 different ways: 
+- Create an inventary about Dependencies and protocols used for Communications (Http, Messaging, etc...)
+- Review with the different Producers if they maintain Contracts in their repositories
+- Determine what is the best way to consume the Contracts from a project/consumer point of view (Git repository, Producer Artifactories)
+- Collect Contracts (Expectations) from different Producers
+- Stablish the initial API Review among Consumer and Producers
 
-- Producer approach: The API/Event System provides a set of Expections (Stable set of behaviour of the artifacts) stored.
-- Consumer approach: The consumer uses contracts from producers in the Integration Tests and stablish a set of organizational mechanism to maintain the contracts. Using this approach, any Consumer can deliver with more confident because it doesn't need to wait in any 
+#### Producers
+
+- Collect default Contracts (Expectations) from the system
+- Create a location to maintanin the Contracts
+- Create a version control of the Contracts
+- Create an agreement on demand with Consumer about the Contracts
+- Create a initial Pipeline to verify Contracts with the system
 
 ![](2.jpg)
 
