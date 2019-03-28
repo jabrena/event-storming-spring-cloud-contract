@@ -2,15 +2,7 @@
 
 You always need confidence when pushing new features into a new application or service in a distributed system. To that end, this project provides support for Consumer-driven Contracts and service schemas in Spring applications, covering a range of options for writing tests, publishing them as assets, and asserting that a contract is kept by producers and consumers — for both HTTP and message-based interactions.
 
-## The problem to solve
-
-When you have a project with multiple dependencies like the scenario provided in the following diagram:
-
-![](Deps.png)
-
-It not possible to wait for all dependencies in an environment to execute your Integration tests. It is necessary to provide a solution with the goal to put that tests in daily Developer activities.
-
-![](Stubs2.png)
+- [The problem to solve](the-problem-to-solve.md)
 
 ## The solution: Dependencies and a Methodology
 
